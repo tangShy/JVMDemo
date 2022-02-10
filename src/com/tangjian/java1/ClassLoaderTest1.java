@@ -25,10 +25,10 @@ public class ClassLoaderTest1 {
 
         System.out.println("***********扩展类加载器***************");
         // 获取ExtensionClassLoader能够加载的api的路径
-        String extDirs = System.getProperty("java.ext.dirs");
-        for (String path : extDirs.split(";")) {
-            System.out.println(path);
-        }
+//        String extDirs = System.getProperty("java.ext.dirs");
+//        for (String path : extDirs.split(";")) {
+//            System.out.println(path);
+//        }
 
         //从上面的路径中随意选择一个类 看看他的类加载器是什么
         //CurveDB位于 \jdk1.8.0_211\jre\lib\ext\sunec.jar 下
